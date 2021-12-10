@@ -117,3 +117,7 @@ console.log(mostPets);
 // pets = 4
 // friendsPets = 3
 // mostPets;
+
+mostPets = pets > friendsPets ? pets : friendsPets ;
+
+console.log(mostPets);
