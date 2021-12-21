@@ -84,12 +84,10 @@ if ( pets > allowedPets ) {
 
 let mostPets;
 
-if ( pets > friendsPets ) {
+if (pets >= friendsPets) {
   mostPets = pets;
-} else if ( friendsPets > pets ) {
+} else if (friendsPets > pets) {
   mostPets = friendsPets;
-} else if ( pets === friendsPets || friendsPets === pets) {
-  mostPets = pets, friendsPets
 }
 
 console.log(mostPets);
@@ -101,7 +99,7 @@ console.log(mostPets);
 // mostPets;
 
 switch (mostPets) {
-  case pets > friendsPets:
+  case pets >= friendsPets:
     mostPets = pets;
     break;
   case pets < friendsPets:
@@ -118,6 +116,6 @@ console.log(mostPets);
 // friendsPets = 3
 // mostPets;
 
-mostPets = pets > friendsPets ? pets : friendsPets ;
+pets >= friendsPets ? console.log(mostPets = pets) : console.log(mostPets = friendsPets);
 
 console.log(mostPets);
